@@ -55,7 +55,7 @@ ul {
 }
 
 .buttonBar {
-	vertical-align: text-middle;
+	vertical-align: middle;
 	margin-top: .6em;
 	margin-bottom: .6em;
 	padding-top: .3em;
@@ -189,6 +189,7 @@ ul {
 	}
 	
 	.buttonBar-button {
+        vertical-align: middle;
 		float: none;
 	}
 	
@@ -197,6 +198,11 @@ ul {
 	}
 	
 	.social-button {
+        vertical-align: middle;
+        margin-top: .6em;
+	    margin-bottom: .6em;
+	    padding-top: .3em;
+	    padding-bottom: .3em;
 		display: none;
 	}
 }

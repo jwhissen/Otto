@@ -1,5 +1,20 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Default.aspx.cs" Inherits="Otto.Default" %>
 
+<asp:Content ID="Content1" ContentPlaceHolderID="HeaderContent" runat="server">
+<div class="logo">
+	<img id="busiCard" src="assets/images/BusiCard.png" alt="Jeffrey Whissen" />
+</div>			
+<div class="buttonBar">
+	<a href="#projects" class="buttonBar-button">Projects</a>
+	<a href="#resume" class="buttonBar-button">Resume</a>
+	<a href="#aboutMe" class="buttonBar-button">About Me</a>
+	<a href="http://facebook.com/jwhissen" style="background: #33F;" class="social-button">f</a>
+	<a href="http://linkedin.com/pub/jeffrey-whissen/21/392/5a8/" style="background: #55F;" class="social-button">in</a>
+	<a href="http://plus.google.com/+JeffreyWhissen" style="background: #F22;" class="social-button">g+</a>
+	<a href="mailto:jwhissen@gmail.com"><img src="assets/images/MailIco.png" class="social-button" /></a>
+	<div style="clear:both;"></div>
+</div>
+</asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="MainContent" runat="server">
 <div class="content-section" id="projects">
 	<p class="sectionHead">Projects</p>
