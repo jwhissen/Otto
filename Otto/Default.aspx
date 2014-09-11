@@ -23,7 +23,7 @@
 		</p>
 		<p class="codeList-head">Links:</p>
 		<ul class="codeList">
-			<li><a href="projects\SonarController\Controller.vhd">Controller Code</a></li>
+			<li><a href="files\projects\SonarController\Controller.vhd">Controller Code</a></li>
 		</ul>		
 	</div>
 	<div class="boxed" id="RobotLamp">
@@ -33,7 +33,7 @@
 		</p>
 		<p class="codeList-head">Links:</p>
 		<ul class="codeList">
-			<li><a href="projects\RobotLamp\LampHeadSch.pdf">Schematic Rev1</a></li>
+			<li><a href="files\projects\RobotLamp\LampHeadSch.pdf">Schematic Rev1</a></li>
 			<li><a href="http://arduino.cc/en/Main/arduinoBoardUno">Arduino Uno</a></li>
 		</ul>		
 	</div>
@@ -45,8 +45,8 @@
 		</p>
 		<p class="codeList-head">Links:</p>
 		<ul class="codeList">
-			<li><a href="projects\JungleTimers\JungleTimers.zip">Program zip</a></li>
-			<li><a href="projects\JungleTimers\JungleTimers-src.zip">Source zip</a></li>
+			<li><a href="files\projects\JungleTimers\JungleTimers.zip">Program zip</a></li>
+			<li><a href="files\projects\JungleTimers\JungleTimers-src.zip">Source zip</a></li>
 		</ul>		
 	</div>
 	<div class="boxed" id="ARM-LED">
@@ -55,7 +55,7 @@
 		</p>
 		<p class="codeList-head">Code:</p>
 		<ul class="codeList">
-			<li><a href="projects\ARM-LED\ARM-LED-blink.s">ARM-LED-blink.s</a></li>
+			<li><a href="files\projects\ARM-LED\ARM-LED-blink.s">ARM-LED-blink.s</a></li>
 		</ul>				
 	</div>
 	<div class="boxed" id="HomeSouls">
@@ -64,9 +64,9 @@
 		</p>
 		<p class="codeList-head">Code:</p>
 		<ul class="codeList">
-			<li><a href="projects\HomeSouls\HomeSoulsServer.py">HomeSoulsServer.py</a></li>
-			<li><a href="projects\HomeSouls\HomeSoulsClient.py">HomeSoulsClient.py</a></li>
-			<li><a href="projects\HomeSouls\GameClientRFC.txt">GameClientRFC.txt</a></li>
+			<li><a href="files\projects\HomeSouls\HomeSoulsServer.py">HomeSoulsServer.py</a></li>
+			<li><a href="files\projects\HomeSouls\HomeSoulsClient.py">HomeSoulsClient.py</a></li>
+			<li><a href="files\projects\HomeSouls\GameClientRFC.txt">GameClientRFC.txt</a></li>
 		</ul>				
 	</div>
 	<div class="boxed" id="Transmission">
@@ -75,11 +75,11 @@
 		</p>
 		<p class="codeList-head">Code:</p>
 		<ul class="codeList">
-			<li><a href="projects\Transmission\ECE351_ProjectEC.v">ECE351_ProjectEC.v</a></li>
-			<li><a href="projects\Transmission\determineRPM.v">determineRPM.v</a></li>
-			<li><a href="projects\Transmission\displayRPM.v">displayRPM.v</a></li>
-			<li><a href="projects\Transmission\transmission.v">transmission.v</a></li>
-			<li><a href="projects\Transmission\351ExtraProject.docx">351ExtraProject.docx</a></li>
+			<li><a href="files\projects\Transmission\ECE351_ProjectEC.v">ECE351_ProjectEC.v</a></li>
+			<li><a href="files\projects\Transmission\determineRPM.v">determineRPM.v</a></li>
+			<li><a href="files\projects\Transmission\displayRPM.v">displayRPM.v</a></li>
+			<li><a href="files\projects\Transmission\transmission.v">transmission.v</a></li>
+			<li><a href="files\projects\Transmission\351ExtraProject.docx">351ExtraProject.docx</a></li>
 		</ul>
 	</div>
 </div>

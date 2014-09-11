@@ -39,9 +39,9 @@
 				<p class="sectionHead">Resume</p>
 				<div class="boxed">
 					<div>
-						<a href="resume/JKW-Resume.html" class="list-hor">HTML</a>
-						<a href="resume/JKW-Resume.pdf" class="list-hor">PDF</a>
-						<a href="resume/JKW-Resume.docx" class="list-hor">DOCX</a>
+						<a href="files/resume/JKW-Resume.html" class="list-hor">HTML</a>
+						<a href="files/resume/JKW-Resume.pdf" class="list-hor">PDF</a>
+						<a href="files/resume/JKW-Resume.docx" class="list-hor">DOCX</a>
 						<div style="clear:both;"></div>
 					</div>
 				</div>
@@ -50,7 +50,7 @@
 			<div class="content-section" id="aboutMe">
 				<p class="sectionHead">About Me</p>
 				<div class="boxed" id="aboutMePost">
-					<img src="assets\images\JeffreyWhissen.png" class="headshot">
+					<img src="assets\images\JeffreyWhissen.png" class="headshot" />
 					I am a native Oregonian who grew up in the suburbs of Portland and have worked locally in technology for over ten years.  Recently I graduated from Portland State University with a B.S. in Computer Engineering.  Most of my free time is spent learning new skills and tinkering.
 				</div>
 			</div>
