@@ -1,0 +1,44 @@
+Home Simulator Game Protocol RFC
+Jeffrey Whissen
+CS 494
+
+
+--Abstract--
+The goal of this protocol is to connect multiple users through a central server in order to facilitate a simulation game.  Each of the users provide constant information as to their current status.  Users can also make requests to the server though the server has ultimate decision making in how the requests are handled.  The server is constantly sending status signals to the clients based on current information.  Information is exchanged as value packets with simple clients 
+
+
+			--Table of Contents--
+Introduction
+
+Components
+	Servers
+	Clients
+		
+Implementation
+	Status
+	Whisper
+
+
+
+	--Introduction--
+This protocol is being designed to manage the interaction between multiple clients connected to a single server.  It utilizes UDP (see RFC 768) to communicate both with clients and the server.  
+
+Clients will repeatedly send their messages to the server while the server will repeatedly send its messages to the client.  Many packets would have to be dropped between the client and the server and only cause the user to have less control over the server.  Packet loss between the server and client only disrupt the clients ability to see the servers current status.
+
+The game itself is based off simulation style games.  The goal is to adjust the morale level of the house by whispering phrases.  Players are encouraged both to play for a high or low moral ending and can compete against one another.
+
+			--Components--
+	--Servers--
+Servers each represent one individual home.  The homes do not communicate with each other at this time.  Routing between servers could be possible as well as utilizing another protocol to maintain longer term communication between this server and a higher level server for information storage.  Servers store a list of clients that have connected.
+
+	--Clients--
+Clients connect to the server and then individually can send messages to the server.  Clients must know the IP of the server
+
+	
+			--Implementation--
+	
+	--Status--
+Statuses are sent as two 3 digit integers stored as one string.  The size of this string will not exceed 32bytes.  The string will be sent in a UDP datagram and should be resent at least twice a second.
+
+	--Whisper--
+Whispers are sent as single word strings, not exceed 128bytes.  The string will be sent in a UDP datagram and should be resent less than once every two seconds.
