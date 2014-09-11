@@ -63,12 +63,12 @@
     <Content Include="assets\images\LogoJKW.png" />
     <Content Include="assets\images\MailIco.png" />
     <Content Include="assets\jquery-1.11.0.min.js" />
+    <Content Include="Default.aspx" />
     <Content Include="files\projects\ARM-LED\ARM-LED-blink.s" />
     <Content Include="files\projects\HomeSouls\GameClientRFC.txt" />
     <Content Include="files\projects\HomeSouls\HomeSoulsClient.py" />
     <Content Include="files\projects\HomeSouls\HomeSoulsServer.py" />
     <Content Include="files\resume\JKW-Resume.html" />
-    <Content Include="Site.master" />
     <Content Include="files\projects\JungleTimers\JungleTimers-src.zip" />
     <Content Include="files\projects\JungleTimers\JungleTimers.zip" />
     <Content Include="files\projects\RobotLamp\LampHeadSch.pdf" />
@@ -80,6 +80,7 @@
     <Content Include="files\projects\Transmission\transmission.v" />
     <Content Include="files\resume\JKW-Resume.docx" />
     <Content Include="files\resume\JKW-Resume.pdf" />
+    <Content Include="Site.Master" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -92,10 +93,24 @@
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Site.Master.cs">
+      <DependentUpon>Site.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Site.Master.designer.cs">
+      <DependentUpon>Site.Master</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
