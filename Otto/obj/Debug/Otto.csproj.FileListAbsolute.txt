@@ -1,0 +1,6 @@
+C:\Users\Jeffrey\Google Drive\Projects\Otto\Otto\bin\Otto.dll.config
+C:\Users\Jeffrey\Google Drive\Projects\Otto\Otto\bin\Otto.dll
+C:\Users\Jeffrey\Google Drive\Projects\Otto\Otto\bin\Otto.pdb
+C:\Users\Jeffrey\Google Drive\Projects\Otto\Otto\obj\Debug\Otto.csprojResolveAssemblyReference.cache
+C:\Users\Jeffrey\Google Drive\Projects\Otto\Otto\obj\Debug\Otto.dll
+C:\Users\Jeffrey\Google Drive\Projects\Otto\Otto\obj\Debug\Otto.pdb
