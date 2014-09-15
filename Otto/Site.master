@@ -17,10 +17,15 @@
             <asp:ContentPlaceHolder ID="HeaderContent" runat="server">
         
             </asp:ContentPlaceHolder>
+
+
 			
 		</div>
         <div id="content">
 			<div class="content-section" id="projects">
+                <asp:ContentPlaceHolder ID="ListTest" runat="server">
+        
+                </asp:ContentPlaceHolder>
                 <asp:ContentPlaceHolder ID="MainContent" runat="server">
         
                 </asp:ContentPlaceHolder>

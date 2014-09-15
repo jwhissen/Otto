@@ -2,7 +2,7 @@
 	Generic Style Sheet by Jeffrey Whissen
 	Created: 3/28/2014
 	Copyright © 2014 Jeffrey Whissen
-	
+    C:\Users\Jeffrey\Google Drive\Projects\Otto\Otto\assets\css\style.css	
 	This is a generic CSS setup	
 
 
@@ -56,23 +56,50 @@ ul {
 
 .buttonBar {
 	vertical-align: middle;
-	margin-top: .6em;
+    margin-top: .6em;
 	margin-bottom: .6em;
 	padding-top: .3em;
 	padding-bottom: .3em;
 	border-top: .1em solid;
 	border-bottom: .1em solid;
-	height: 2.5em;
 	overflow-x: auto;
 	overflow-y: hidden;
 }
 
-.buttonBar-button {
-	height: 2.5em;
+.button-nav {	
 	cursor: pointer;
+    text-align: center;
+    line-height: 2.4em;
 	margin-left: .2em;
 	margin-right: 2em;
 	float: left;
+    padding: 0px;
+    height: 2.4em;
+}
+
+.button-social {
+    cursor: pointer;
+    text-align: center;
+    line-height: 2.8em;
+	font-size: .8em;
+    width: 2.8em;
+	height: 2.8em;
+	border-radius: 5em;
+	margin-left: .3em;
+	margin-right: .3em;
+    padding: 0px;
+	float: right;
+	border: .15em #666 solid;
+}
+
+.button-email {
+    cursor: pointer;
+    vertical-align: middle;
+    height: 2.4em;
+	margin-left: .4em;
+	margin-right: .4em;
+    padding: 0px;
+	float: right;
 }
 
 .codeList {
@@ -102,19 +129,6 @@ ul {
 .list-hor {
 	padding-left: 2em;
 	padding-right: 2em;
-}
-
-.social-button {
-	font-size: .8em;
-	width: 3.125em;
-	height: 3.125em;
-	border-radius: 5em;
-	cursor: pointer;
-	margin-left: .2em;
-	margin-right: .2em;
-	float: right;
-	color: #FFF;
-	border: .15em #666 solid;
 }
 
 .sectionHead {

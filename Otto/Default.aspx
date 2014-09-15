@@ -5,14 +5,14 @@
 	<img id="busiCard" src="assets/images/BusiCard.png" alt="Jeffrey Whissen" />
 </div>			
 <div class="buttonBar">
-	<a href="#projects" class="buttonBar-button">Projects</a>
-	<a href="#resume" class="buttonBar-button">Resume</a>
-	<a href="#aboutMe" class="buttonBar-button">About Me</a>
-	<a href="http://facebook.com/jwhissen" style="background: #33F;" class="social-button">f</a>
-	<a href="http://linkedin.com/pub/jeffrey-whissen/21/392/5a8/" style="background: #55F;" class="social-button">in</a>
-	<a href="http://plus.google.com/+JeffreyWhissen" style="background: #F22;" class="social-button">g+</a>
-	<a href="mailto:jwhissen@gmail.com"><img src="assets/images/MailIco.png" class="social-button" /></a>
-	<div style="clear:both;"></div>
+    <a class="button-nav" href="#projects">Projects</a>
+	<a class="button-nav" href="#resume">Resume</a>
+	<a class="button-nav" href="#aboutMe">About Me</a>
+	<a class="button-social" style="background: #33F;" href="http://facebook.com/jwhissen">f</a></a>
+	<a class="button-social" style="background: #33F;" href="http://linkedin.com/pub/jeffrey-whissen/21/392/5a8/">in</a></a>
+	<a class="button-social" style="background: #F22;" href="http://plus.google.com/+JeffreyWhissen">g+</a></a>
+	<a class="button-email" href="mailto:jwhissen@gmail.com" target="_top"><img class="button-email" src="assets/images/MailIco.png" /></a></a>
+	<!-- <div style="clear:both;"></div>-->
 </div>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="MainContent" runat="server">
@@ -23,6 +23,7 @@
 			<li><a href="#SonarController">Sonar Sensor Array (VHDL)</a></li>
 			<li><a href="#RobotLamp">Robot Lamp (Arduino)</a></li>					
 		</ul>
+        <a href="Default.aspx">Default.aspx</a>
 		<ul><p class="listHead">Retired Projects</p>
 			<li><a href="#JungleTimers">Jungle Timers for League of Legends (C++)</a></li>
 		</ul>
