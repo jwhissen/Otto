@@ -14,20 +14,14 @@
     <form id="form1" runat="server">
     <div id="wrapper">
 		<div id="header">
-            <asp:ContentPlaceHolder ID="HeaderContent" runat="server">
-        
-            </asp:ContentPlaceHolder>
-
-
-			
+            <asp:ContentPlaceHolder ID="HeaderContent" runat="server">        
+            </asp:ContentPlaceHolder>			
 		</div>
         <div id="content">
 			<div class="content-section" id="projects">
-                <asp:ContentPlaceHolder ID="ListTest" runat="server">
-        
+                <asp:ContentPlaceHolder ID="ListTest" runat="server">        
                 </asp:ContentPlaceHolder>
-                <asp:ContentPlaceHolder ID="MainContent" runat="server">
-        
+                <asp:ContentPlaceHolder ID="MainContent" runat="server">        
                 </asp:ContentPlaceHolder>
 			</div>
 			

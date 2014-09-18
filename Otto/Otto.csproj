@@ -64,6 +64,7 @@
     <Content Include="assets\images\MailIco.png" />
     <Content Include="assets\jquery-1.11.0.min.js" />
     <Content Include="Default.aspx" />
+    <Content Include="Entries.aspx" />
     <Content Include="files\projects\ARM-LED\ARM-LED-blink.s" />
     <Content Include="files\projects\HomeSouls\GameClientRFC.txt" />
     <Content Include="files\projects\HomeSouls\HomeSoulsClient.py" />
@@ -99,6 +100,13 @@
     </Compile>
     <Compile Include="Default.aspx.designer.cs">
       <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Entries.aspx.cs">
+      <DependentUpon>Entries.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Entries.aspx.designer.cs">
+      <DependentUpon>Entries.aspx</DependentUpon>
     </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>

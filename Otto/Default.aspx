@@ -23,7 +23,6 @@
 			<li><a href="#SonarController">Sonar Sensor Array (VHDL)</a></li>
 			<li><a href="#RobotLamp">Robot Lamp (Arduino)</a></li>					
 		</ul>
-        <a href="Default.aspx">Default.aspx</a>
 		<ul><p class="listHead">Retired Projects</p>
 			<li><a href="#JungleTimers">Jungle Timers for League of Legends (C++)</a></li>
 		</ul>
